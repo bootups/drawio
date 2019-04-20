@@ -1259,3 +1259,93 @@ html td.mxWindowTitle {
     height: 27px;
     font-size: 14px;
 }
+
+.clHeader {
+	display:table; 
+	width:100%; 
+	background-color:#E6E6E6;	
+}
+
+.clImg {
+	display:table-cell; 
+	width: 57px; 
+	height: 57px;
+}
+
+.clHeaderText {
+	display: table-cell; 
+	vertical-align: middle; 
+	width: 100%; 
+	padding-left: 10px; 
+	padding-right: 10px;
+}
+
+.clStereotypes {
+	font-size: 14px;
+	color: #000000;
+}
+
+.clTitle {
+	font-size: 17px;
+	color: #000000;
+}
+
+.clOverview {
+	font-size: 14px;
+	color: #858B94;
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.clBlHeader {
+	font-size: 14px;
+	color: #858B94;
+    padding-left: 15px;
+	padding-top: 10px;
+}
+
+.clBl {
+	font-size: 12px;
+	color: #858B94;
+    padding-left: 15px;
+	padding-top: 10px;
+}
+
+.clKVsHeader {
+	font-size: 14px;
+	color: #858B94;
+    padding-left: 15px;
+	padding-top: 10px;
+}
+
+.clKVs {
+	font-size: 12px;
+	height: 100%;
+	width: 100%;
+	border-collapse: collapse;
+	/*word-break: break-all;*/
+}
+
+.clKey {
+	min-width: 40px;
+	max-width: 100px;
+	vertical-align: top;
+	color: #474a4f;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+
+.clValue {
+	vertical-align: top;
+ 	color: #858B94;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+ul {
+	padding-inline-start: 25px;
+	margin-block-start: 0px;
+}
