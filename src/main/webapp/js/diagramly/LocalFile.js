@@ -27,7 +27,7 @@ mxUtils.extend(LocalFile, DrawioFile);
  */
 LocalFile.prototype.isAutosave = function()
 {
-	return false;
+	return true;
 };
 
 /**
