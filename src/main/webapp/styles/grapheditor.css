@@ -1268,8 +1268,8 @@ html td.mxWindowTitle {
 
 .clImg {
 	display:table-cell; 
-	width: 57px; 
-	height: 57px;
+	width: 70px; 
+	height: 70px;
 }
 
 .clHeaderText {
@@ -1286,7 +1286,8 @@ html td.mxWindowTitle {
 }
 
 .clTitle {
-	font-size: 17px;
+	font-size: 20px;
+	font-weight: 600;
 	color: #000000;
 }
 
