@@ -79,6 +79,8 @@ mxscript(drawDevUrl + 'js/diagramly/LocalFile.js');
 mxscript(drawDevUrl + 'js/diagramly/LocalLibrary.js');
 mxscript(drawDevUrl + 'js/diagramly/StorageFile.js');
 mxscript(drawDevUrl + 'js/diagramly/StorageLibrary.js');
+mxscript(drawDevUrl + 'js/diagramly/ServerFile.js');
+mxscript(drawDevUrl + 'js/diagramly/ServerLibrary.js');
 mxscript(drawDevUrl + 'js/diagramly/Dialogs.js');
 mxscript(drawDevUrl + 'js/diagramly/Editor.js');
 mxscript(drawDevUrl + 'js/diagramly/EditorUi.js');

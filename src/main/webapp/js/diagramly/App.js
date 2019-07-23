@@ -1898,6 +1898,8 @@ App.prototype.clearMode = function()
  */
 App.prototype.getDiagramId = function()
 {
+	return "Ztest.xml";
+	/*
 	var id = window.location.hash;
 	
 	// Strips the hash sign
@@ -1907,6 +1909,7 @@ App.prototype.getDiagramId = function()
 	}
 	
 	return id;
+	*/
 };
 
 /**
@@ -3500,6 +3503,22 @@ App.prototype.loadFile = function(id, sameWindow, file, success)
 		}
 		else if (this.spinner.spin(document.body, mxResources.get('loading')))
 		{
+			// Handles files from localStorage
+			if (id.charAt(0) == 'Z')
+			{
+				this.spinner.stop();
+				id = decodeURIComponent(id.substring(1));
+
+				mxUtils.getAll(['vd/' + id], (xhr) => {
+				{
+					// Adds bundle text to resources
+					var data = xhr[0].getText();
+					this.fileLoaded(new ServerFile(this, data, id));
+//					this.success();
+				}
+				}, function(e)	{});				
+			}
+			
 			// Handles files from localStorage
 			if (id.charAt(0) == 'L')
 			{
