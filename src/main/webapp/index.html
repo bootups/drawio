@@ -52,17 +52,22 @@
 				}
 			}
 			
+			if (params.length && params[0] === "") {
+				result['lightbox'] = '1'
+				result['highlight'] = '0000ff'
+				result['edit'] = '_blank'
+				result['layers'] = '1'
+				result['nav'] = '1'
+				result['title'] = 'test.xml'
+				result['presentation'] = "#Ztest.xml";
+			}
+			result['dev'] = '1'
 			return result;
 		})();
 
-		urlParams['dev'] = '1'
+		console.log("l: " + urlParams.length)
+
 		/*
-		urlParams['lightbox'] = '1'
-		urlParams['highlight'] = '0000ff'
-		urlParams['edit'] = '_blank'
-		urlParams['layers'] = '1'
-		urlParams['nav'] = '1'
-		urlParams['title'] = 'test.xml'
 		*/
 		// Forces CDN caches by passing URL parameters via URL hash
 		if (window.location.hash != null && window.location.hash.substring(0, 2) == '#P')
@@ -82,8 +87,6 @@
 			}
 		}
 
-		urlParams['dev'] = '1'
-		
 		// Redirects page if required
 		if (urlParams['dev'] != '1')
 		{

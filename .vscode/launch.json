@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch localhost",
+            "name": "Content Creation",
             "type": "chrome",
             "request": "launch",
             "url": "http://localhost/drawio/src/main/webapp/index.html?offline=1&https=0&dev=1",
+            "webRoot": "${workspaceFolder}",
+        },
+        {
+            "name": "Presentation",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost/drawio/src/main/webapp/index.html",
             "webRoot": "${workspaceFolder}",
         }
     ]
