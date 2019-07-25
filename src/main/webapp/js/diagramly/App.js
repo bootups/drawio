@@ -1898,8 +1898,9 @@ App.prototype.clearMode = function()
  */
 App.prototype.getDiagramId = function()
 {
-	return "Ztest.xml";
 	/*
+	return "Ztest.xml";
+	*/
 	var id = window.location.hash;
 	
 	// Strips the hash sign
@@ -1909,7 +1910,6 @@ App.prototype.getDiagramId = function()
 	}
 	
 	return id;
-	*/
 };
 
 /**

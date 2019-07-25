@@ -56,12 +56,14 @@
 		})();
 
 		urlParams['dev'] = '1'
+		/*
 		urlParams['lightbox'] = '1'
 		urlParams['highlight'] = '0000ff'
 		urlParams['edit'] = '_blank'
 		urlParams['layers'] = '1'
 		urlParams['nav'] = '1'
 		urlParams['title'] = 'test.xml'
+		*/
 		// Forces CDN caches by passing URL parameters via URL hash
 		if (window.location.hash != null && window.location.hash.substring(0, 2) == '#P')
 		{
@@ -312,8 +314,10 @@
 		// Changes paths for local development environment
 		if (urlParams['dev'] == '1')
 		{
+			var path = document.location.origin + document.location.pathname;
+			path = path.substring(0, path.lastIndexOf('index.html'))
 			// Used to request grapheditor/mxgraph sources in dev mode
-			var mxDevUrl = document.location.origin + document.location.pathname + 'mxgraph2';
+			var mxDevUrl = path + 'mxgraph2';
 			
 			if (document.location.protocol == 'file:')
 			{
