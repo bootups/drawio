@@ -51,17 +51,6 @@
 					result[params[i].substring(0, idx)] = params[i].substring(idx + 1);
 				}
 			}
-			
-			if (params.length && params[0] === "") {
-				result['lightbox'] = '1'
-				result['highlight'] = '0000ff'
-				result['edit'] = '_blank'
-				result['layers'] = '1'
-				result['nav'] = '1'
-				result['title'] = 'test.xml'
-				result['presentation'] = "#Ztest.xml";
-			}
-			result['dev'] = '1'
 			return result;
 		})();
 
