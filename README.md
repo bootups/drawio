@@ -1,6 +1,18 @@
 # Development
+## Client - javascript
+You can create the minified JavaScript using the default "all" task of the Ant build.xml file which you can execute by running ant in the etc/build folder of the repo.
+```
+$ cd etc/build
+$ ant all
+```
+## Server + Client
+Server provides Gliffy and .vsdx importers, the embed support, icon search and publishing to Imgur.
 
-## 
+If you want to build the full war with the Java server-side code and the client-side JavaScript, invoke the "war" task in the Ant build.xml file. Deploy the resulting .war file to a servlet engine.
+```
+$ cd etc/build
+$ ant war
+```
 ## Docker
 ```
 $ cd drawio/src/main
