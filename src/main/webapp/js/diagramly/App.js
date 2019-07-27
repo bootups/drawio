@@ -1898,8 +1898,8 @@ App.prototype.clearMode = function()
  */
 App.prototype.getDiagramId = function()
 {
-	var id = (urlParams['presentation']) ? urlParams['presentation'] : window.location.hash;
-
+	var id = window.location.hash;
+	
 	// Strips the hash sign
 	if (id != null && id.length > 0)
 	{
