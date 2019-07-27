@@ -3506,7 +3506,7 @@ App.prototype.loadFile = function(id, sameWindow, file, success)
 				this.spinner.stop();
 				id = decodeURIComponent(id.substring(1));
 
-				mxUtils.getAll(['vd/' + id], (xhr) => {
+				mxUtils.getAll(['vd/doc/' + id], (xhr) => {
 				{
 					// Adds bundle text to resources
 					var data = xhr[0].getText();
