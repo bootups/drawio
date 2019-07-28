@@ -1,4 +1,33 @@
-# Development
+# Setup Environment
+## In the dev space
+```
+$ cd /projects/vd/dev
+$ python -m SimpleHTTPServer 8000
+```
+### Visual Studio Code
+* Open the dev workspace
+* Use the: "Dev Content Creation" and "Dev Presentation", debug configurations
+## In the prod space
+In one shell
+```
+$ cd /projects/vd/prod
+$ python -m SimpleHTTPServer 9000
+```
+In another shell to open the publish browser
+```
+$ vdc
+```
+### Visual Studio Code
+* Open the prod workspace
+* Use the: "Prod Content Creation" and "Prod Presentation", debug configurations
+* Publish files to: prod/drawio/src/main/webapp/vd
+## GitHub
+When releasing to Github. The minified production versions need to be generated and committed and pushed
+```
+$ cd dev/drawio/etc/build
+$ ant all
+```
+# Notes
 ## Client - javascript
 You can create the minified JavaScript using the default "all" task of the Ant build.xml file which you can execute by running ant in the etc/build folder of the repo.
 ```
