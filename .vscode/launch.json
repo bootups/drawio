@@ -29,7 +29,7 @@
             "name": "Prod Presentation",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:9000/drawio/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=test.xml#Ztest.xml",
+            "url": "http://localhost:9000/drawio/index.html",
             "webRoot": "${workspaceFolder}",
         }
     ]
