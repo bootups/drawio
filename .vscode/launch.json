@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "bashdb",
+            "request": "launch",
+            "name": "Bash-Debug (hardcoded script name)",
+            "cwd": "/projects/vd/dev/mxgraph2",
+            "program": "/projects/vd/dev/mxgraph2/build.sh",
+            "args": []
+        },
+        
+        {
             "name": "Dev Content Creation",
             "type": "chrome",
             "request": "launch",
@@ -29,7 +38,7 @@
             "name": "Prod Presentation",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:9000/drawio/index.html",
+            "url": "http://localhost:9000/drawio/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=test.xml#Ztest.xml",
             "webRoot": "${workspaceFolder}",
         }
     ]

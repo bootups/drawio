@@ -23,6 +23,13 @@ $ vdc
 * Publish files to: prod/drawio/src/main/webapp/vd
 ## GitHub
 When releasing to Github. The minified production versions need to be generated and committed and pushed
+
+If mxgraph2 has been modified:
+```
+$ cd vd/dev/mxgraph2/
+./build.sh
+```
+This will copy the mxClient.js file into the drawio project. Then:
 ```
 $ cd dev/drawio/etc/build
 $ ant all
