@@ -1266,6 +1266,18 @@ html td.mxWindowTitle {
 	background-color:#E6E6E6;	
 }
 
+.clHeaderConcept {
+	display:table; 
+	width:100%; 
+	background-color:#FF9999;	
+}
+
+.clHeaderArchitecture {
+	display:table; 
+	width:100%; 
+	background-color:#FFCC99;	
+}
+
 .clImg {
 	display:table-cell; 
 	width: 70px; 
