@@ -1365,9 +1365,9 @@ html td.mxWindowTitle {
 	padding-left: 10px;
 }
 
-ul {
-	padding-inline-start: 10px;
-	margin-block-start: 0px;
+.clOverview>ul {
+	margin: 0px;
+	padding-left: 28px;
 }
 
 .clTable {
