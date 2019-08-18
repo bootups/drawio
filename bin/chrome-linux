@@ -1,0 +1,2 @@
+#!/bin/zsh
+/opt/google/chrome/chrome --user-data-dir=/home/adrianb/projects/vd/prod/config/chrome &
