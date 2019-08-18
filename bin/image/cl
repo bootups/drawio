@@ -1,0 +1,4 @@
+#!/bin/zsh
+scriptdir=$0:a:h
+cd $scriptdir
+node copy-latest.js

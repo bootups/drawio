@@ -4,4 +4,3 @@ node_modules
 .DS_Store
 discovery/
 src/main/webapp/vd/doc/Untitled Diagram.xml
-bin/~/projects/vd/prod/config/chrome/BrowserMetrics-active.pma
