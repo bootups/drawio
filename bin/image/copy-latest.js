@@ -17,7 +17,7 @@ function getMostRecentFileName(dir) {
     });
 }
 
-var dir = '/Users/adrian/projects/vd/prod/drawio/src/main/webapp/vd/images'
+var dir = '../../src/main/webapp/vd/images'
 var f = getMostRecentFileName(dir);
 var f2 = 'vd/images/' + f;
 console.log(f2);
