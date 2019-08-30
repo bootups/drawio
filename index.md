@@ -18,3 +18,18 @@
 
 # Kubernetes
 * [Kubernetes](src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Kubernetes#Zkubernetes-Kubernetes.xml)
+
+# Netflix 
+## Hystrix
+* [How it works](https://design.codelytics.io/hystrix/how-it-works)
+* [Request Collapsing](https://design.codelytics.io/hystrix/request-collapsing)
+* [Fallback Timeout](https://design.codelytics.io/hystrix/fallback)
+
+# Tomcat
+## JDBC
+* [Initialisation](https://design.codelytics.io/tomcat/jdbc-initialisation)
+* [Query](https://design.codelytics.io/tomcat/jdbc-query)
+
+## Security
+* [index.jsp](https://design.codelytics.io/tomcat/security-login-form)
+* [login.jsp](https://design.codelytics.io/tomcat/security-login)
