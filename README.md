@@ -1,18 +1,35 @@
-# AWS Notes
+# AWS
 
 ## Compute
-* [Fargate](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Fargate.xml#ZFargate.xml)
-* [EC2](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Fargate.xml#ZEC2.xml)
+* [Fargate](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Fargate#Zaws-compute-Fargate.xml)
+* [EC2](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=EC2#Zaws-compute-EC2.xml)
+* [Lambda](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Lambda#Zaws-compute-Serverless.xml)
 
-## Network
-* [DNS](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=DNS#ZDNS.xml)
-* [VPC](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=aws-database.xml#ZVPC.xml)
-* [CloudFront](src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=aws-database.xml#ZCloudFront.xml)
+## Networking
+* [CloudFront](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CloudFront#Zaws-networking-CloudFront.xml)
+* [Route53](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=CloudFront#Zaws-networking-Route53.xml)
 
-## Identity and Acceess Management
-* [IAM](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=aws-database.xml#ZIAM.xml)
-* [Cognito](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=aws-database.xml#ZCognito.xml)
+## Security
+* [IAM](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=IAM#Zaws-security-IAM.xml)
+* [Cognito](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Cognito#Zaws-security-Cognito.xml)
 
+## Database
+* [RDS Backups](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=RDSBackups#Zaws-database-RDS-backups.xml)
 
-## License
-Licensed under the Apache v2.
+# Kubernetes
+* [Kubernetes](https://bootups.github.io/visual-documentation/src/main/webapp/index.html?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Kubernetes#Zkubernetes-Kubernetes.xml)
+
+# Netflix 
+## Hystrix
+* [How it works](https://design.codelytics.io/hystrix/how-it-works)
+* [Request Collapsing](https://design.codelytics.io/hystrix/request-collapsing)
+* [Fallback Timeout](https://design.codelytics.io/hystrix/fallback)
+
+# Tomcat
+## JDBC
+* [Initialisation](https://design.codelytics.io/tomcat/jdbc-initialisation)
+* [Query](https://design.codelytics.io/tomcat/jdbc-query)
+
+## Security
+* [index.jsp](https://design.codelytics.io/tomcat/security-login-form)
+* [login.jsp](https://design.codelytics.io/tomcat/security-login)
