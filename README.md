@@ -1,3 +1,9 @@
+# Problem
+Software architecture and concepts are often disseminated in text form with the use of some diagrams. Processing text and forming a mental model of the disseminated knowledge often takes time.
+
+# Solution
+Due to the inherent structure of software architecture and concepts, software architecture and concepts are often more effectively disseminated through using diagrams as the primary medium. The following shows visualisations I have built, which aim to communicate software architecture and concepts more effectively by using diagrams as the primary medium.
+
 # AWS
 
 ## Compute
